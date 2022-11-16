@@ -74,8 +74,8 @@ WSGI_APPLICATION = 'refr.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': 'konkurs_bot_db',
-        'USER': 'konkurs_bot_user',
+        'NAME': 'konkurs_bot_db1',
+        'USER': 'konkurs_bot_user1',
         'PASSWORD': 'root',
         'HOST': '127.0.0.1',
         'PORT': 5432
