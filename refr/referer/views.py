@@ -70,7 +70,7 @@ def start(update, context):
             ref_friend.odam = ref_friend.odam + 1
             ref_friend.ball = ref_friend.ball + 5
             ref_friend.save()
-            context.bot.send_message(text=f"Sizga yangi odam qo'shildi {user.user_name}", chat_id=ref_friend.user_id)
+            context.bot.send_message(text=f"Sizga yangi odam qo'shildi {user.first_name}", chat_id=ref_friend.user_id)
 
             log['refer_id'] = referer_id
             tg_user.refer_id = referer_id
